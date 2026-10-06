@@ -45,7 +45,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .hero { overflow: hidden; min-height: 610px; padding: 110px 0 120px; background: #101827; color: var(--white); }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1.2fr .8fr; align-items: center; gap: clamp(48px, 10vw, 132px); }
 .hero-copy { max-width: 640px; }
-.eyebrow, .card-label { margin: 0 0 18px; color: var(--accent-dark); font-size: .72rem; font-weight: 800; letter-spacing: .14em; }
+.eyebrow, .card-label { margin: 0 0 18px; color: var(--accent-dark); font-size: .72rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .hero .eyebrow, .contact-section .eyebrow { color: var(--accent); }
 .status-dot { display: inline-block; width: 8px; height: 8px; margin-right: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px rgb(131 224 194 / 15%); }
 h1, h2, h3, p { margin-top: 0; }
@@ -77,11 +77,11 @@ h1, h2, h3, p { margin-top: 0; }
 .section-copy p { margin-bottom: 18px; }
 .text-link-dark { display: inline-block; margin-top: 8px; color: var(--ink); }
 .text-link-dark span { color: var(--accent-dark); }
-.section-heading { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-bottom: 54px; }
+.section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; margin-bottom: 54px; }
 .section-intro { max-width: 365px; margin-bottom: 4px; color: var(--muted); }
 .timeline { margin: 0; padding: 0; list-style: none; }
 .timeline-item { display: grid; grid-template-columns: 220px 1fr; gap: 42px; padding: 30px 0 34px; border-top: 1px solid var(--line); }
-.timeline-date { color: var(--accent-dark); font-size: .75rem; font-weight: 800; letter-spacing: .07em; }
+.timeline-date { color: var(--accent-dark); font-size: .85rem; font-weight: 800; letter-spacing: .07em; }
 .timeline-content h3, .education-card h3 { margin-bottom: 5px; font-size: 1.3rem; letter-spacing: -.03em; }
 .timeline-company { margin-bottom: 14px; color: var(--muted); font-weight: 600; }
 .timeline-content > p:not(.timeline-company) { max-width: 700px; margin-bottom: 18px; color: var(--muted); }
